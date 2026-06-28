@@ -1,0 +1,7 @@
+package com.bankapp.banking.exception;
+
+public class AccountNotActiveException extends RuntimeException {
+    public AccountNotActiveException(String message) {
+        super(message);
+    }
+}
